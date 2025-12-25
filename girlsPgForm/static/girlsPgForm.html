@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color:black;">
+<div style="margin:auto;
+                text-align:center;
+                width: 400px;
+                border: 2px solid black;
+                padding: 20px;
+                border-radius: 10px;
+                background-color: pink;">
+    <h1>GIRLS PG ADMISSION FORM</h1>
+    <form action="girlsPgFormServlet">
+        <div style="text-align: right;">
+            <label>State: </label>
+            <select name="State">
+                <option value="">Select</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Goa">Goa</option>
+            </select><br><br>
+        </div>
+        <label for="guestName">Guest Name: </label>
+        <input type="text" id="guestName" placeholder="Guest Name" name="guestName"/><br> <br>
+
+        <label for="fatherName">Father Name: </label>
+        <input type="text" id="fatherName" placeholder="Father Name" name="fatherName"/><br> <br>
+
+        <label for="motherName">Mother Name: </label>
+        <input type="text" id="motherName" placeholder="Mother Name" name="motherName"/><br> <br>
+
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date" name="date"/><br><br>
+
+        <label for="age">Enter Age: </label>
+        <input type="number" id="age" placeholder="Age" name="age"/><br><br>
+
+        <label for="number">Enter Number</label>
+        <input type="text" id="number" placeholder="phone number" name="guestNumber"/><br><br>
+
+        <label for="mail">Enter E-mail</label>
+        <input type="email" id="mail" placeholder="Email" name="guistEmail"/><br><br>
+
+        <label for="address">Adress:</label><br>
+        <textarea name="address" rows="4" cols="30" id="address"></textarea><br><br>
+
+        <input type="submit" placeholder="Admit">
+
+    </form>
+</div>
+</body>
+</html>
