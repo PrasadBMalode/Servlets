@@ -4,7 +4,7 @@ import com.xworkz.instagram.dto.InstagramDto;
 
 public class InstagramValidation {
     public boolean displayInstaValidation(InstagramDto instagramDto) {
-        
+
         if (instagramDto == null) {
             return false;
         }
